@@ -11,7 +11,7 @@ def km_num_iterations():
   # Connect to a pre-existing cluster
   # connect to localhost:54321
 
-  prostate_h2o = h2o.import_file(path=pyunit_utils.locate("smalldata/logreg/prostate.csv"))
+  prostate_h2o = h2o.import_file(path=pyunit_utils.locate("smalldata/logreg/proste.csv"))
 
 
   prostate_km_h2o = H2OKMeansEstimator(k=3, max_iterations=4)

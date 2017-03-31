@@ -10,7 +10,7 @@ from tests import pyunit_utils
 def parametersKmeans():
 
     print("Getting data...")
-    iris = h2o.import_file(path=pyunit_utils.locate("smalldata/iris/iris.csv"))
+    iris = h2o.import_file(path=pyunit_utils.locate("smalldata/iris/iricsv"))
 
     print("Create and and duplicate...")
 

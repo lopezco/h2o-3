@@ -15,7 +15,7 @@ def get_modelKmeans():
   # connect to localhost:54321
 
   #Log.info("Importing benign.csv data...\n")
-  benign_h2o = h2o.import_file(path=pyunit_utils.locate("smalldata/logreg/benign.csv"))
+  benign_h2o = h2o.import_file(path=pyunit_utils.locate("smalldata/logreg/benn.csv"))
   #benign_h2o.summary()
 
   benign_sci = np.genfromtxt(pyunit_utils.locate("smalldata/logreg/benign.csv"), delimiter=",")
